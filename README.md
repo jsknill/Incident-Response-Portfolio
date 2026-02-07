@@ -16,7 +16,7 @@ Welcome to my technical portfolio. This repository contains detailed incident re
     * Identified `file176.exe` as the specific threat and provided its MD5 hash for enterprise blacklisting.
 
 **Files:**
-* [Bash Script: scanner.sh]({link coming soon})
+* [Bash Script: scanner.sh] (https://github.com/jsknill/Incident-Response-Portfolio/blob/main/Scanner.sh)
 * [Full Technical Report (PDF)]({link coming soon})
 
 ---
