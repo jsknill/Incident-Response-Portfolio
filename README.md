@@ -39,24 +39,20 @@ Welcome to my technical portfolio. This repository contains detailed incident re
  **Case Study:** Imperial Memory
 
 
-**Objective:** Perform deep memory forensics on a compromised system image to identify malicious processes, network connections, and injected code that standard disk forensics might miss .
+* **Objective:** Perform deep memory forensics on a compromised system image to identify malicious processes, network connections, and injected code that standard disk forensics might miss .
 
 
-**Solution:** Utilized the **Volatility Framework** to parse memory dumps and reconstruct the adversary's timeline of activity.
+* **Solution:** Utilized the **Volatility Framework** to parse memory dumps and reconstruct the adversary's timeline of activity.
 
-**Key Technical Wins:**
-
+* **Key Technical Wins:**
    *Profile Identification: Successfully identified the correct operating system profile to ensure accurate plugin parsing.
-
    *Process Analysis: Utilized pslist and pstree to identify hidden or orphaned malicious processes.
-
    *Network Artifacts: Extracted active and terminated network connections to identify Command and Control (C2) communication.
-
    *Code Injection Detection: Used plugins like malfind to locate injected code in memory segments with RWX permissions.
 
 **Files:**
 
-[Technical Analysis Report (PDF)] (https://github.com/jsknill/Incident-Response-Portfolio/blob/main/imperial-memory-report.pdf)
+* [Technical Analysis Report (PDF)] (https://github.com/jsknill/Incident-Response-Portfolio/blob/main/imperial-memory-report.pdf)
 
 ---
 
