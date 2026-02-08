@@ -33,7 +33,7 @@ Welcome to my technical portfolio. This repository contains detailed incident re
 
 **Files:**
 * [Snort Rules: local.rules](https://github.com/jsknill/Incident-Response-Portfolio/blob/main/Local.Rules)
-* [Full Technical Report (PDF)]({link coming soon})
+* [Full Technical Report (PDF)] (https://github.com/jsknill/Incident-Response-Portfolio/blob/main/pigs-rules-report.pdf)
 
 ---
 
