@@ -56,7 +56,7 @@ Welcome to my technical portfolio. This repository contains detailed incident re
 
 **Files:**
 
-[Technical Analysis Report (PDF)]({link coming soon})
+[Technical Analysis Report (PDF)] (https://github.com/jsknill/Incident-Response-Portfolio/blob/main/imperial-memory-report.pdf)
 
 ---
 
