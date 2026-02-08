@@ -35,11 +35,34 @@ Welcome to my technical portfolio. This repository contains detailed incident re
 * [Snort Rules: local.rules](https://github.com/jsknill/Incident-Response-Portfolio/blob/main/Local.Rules)
 * [Full Technical Report (PDF)] (https://github.com/jsknill/Incident-Response-Portfolio/blob/main/pigs-rules-report.pdf)
 
+## Project 3: Memory Forensics & Artifact Extraction
+ **Case Study:** Imperial Memory
+
+
+**Objective:** Perform deep memory forensics on a compromised system image to identify malicious processes, network connections, and injected code that standard disk forensics might miss .
+
+
+**Solution:** Utilized the **Volatility Framework** to parse memory dumps and reconstruct the adversary's timeline of activity.
+
+**Key Technical Wins:**
+
+   *Profile Identification: Successfully identified the correct operating system profile to ensure accurate plugin parsing.
+
+   *Process Analysis: Utilized pslist and pstree to identify hidden or orphaned malicious processes.
+
+   *Network Artifacts: Extracted active and terminated network connections to identify Command and Control (C2) communication.
+
+   *Code Injection Detection: Used plugins like malfind to locate injected code in memory segments with RWX permissions.
+
+**Files:**
+
+[Technical Analysis Report (PDF)]({link coming soon})
+
 ---
 
 ## 🚀 Technical Skills Demonstrated
 * **Security Operations:** Incident Response (IR), Malware Triage, IDS/IPS Configuration.
-* **Tools:** Snort, ClamAV, Snorby, tcpdump, Wireshark, Active Director..
+* **Tools:** Snort, ClamAV, Snorby, tcpdump, Wireshark, Active Directory, Volatility Framework, Memory Forensics, Artifact Extraction.
 * **Scripting & Automation:** Bash Scripting, API Integration (REST), JSON Parsing.
 * **Documentation:** Professional Technical Writing, Root Cause Analysis, and Remediation Strategy.
 
