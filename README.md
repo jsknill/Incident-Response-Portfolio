@@ -45,14 +45,11 @@ Welcome to my technical portfolio. This repository contains detailed incident re
 * **Solution:** Utilized the **Volatility Framework** to parse memory dumps and reconstruct the adversary's timeline of activity.
 
 * **Key Technical Wins:**
-   *Profile Identification: Successfully identified the correct operating system profile to ensure accurate plugin parsing.
+* **Profile Identification:** Successfully identified the correct operating system profile to ensure accurate plugin parsing.
+* **Process Analysis:** Utilized `pslist` and `pstree` to identify hidden or orphaned malicious processes.
+* **Network Artifacts:** Extracted active and terminated network connections to identify Command and Control (C2) communication.
+* **Code Injection Detection:** Used plugins like `malfind` to locate injected code in memory segments with RWX permissions.
   
-   *Process Analysis: Utilized pslist and pstree to identify hidden or orphaned malicious processes.
-  
-   *Network Artifacts: Extracted active and terminated network connections to identify Command and Control (C2) communication.
-  
-   *Code Injection Detection: Used plugins like malfind to locate injected code in memory segments with RWX permissions.
-
 **Files:**
 
 * [Technical Analysis Report (PDF)] (https://github.com/jsknill/Incident-Response-Portfolio/blob/main/imperial-memory-report.pdf)
