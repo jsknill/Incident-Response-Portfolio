@@ -48,7 +48,7 @@ Welcome to my technical portfolio. This repository contains detailed incident re
     * **Profile Identification:** Successfully identified the correct operating system profile to ensure accurate plugin parsing.
     * **Process Analysis:** Utilized `pslist` and `pstree` to identify hidden or orphaned malicious processes.
     * **Network Artifacts:** Extracted active and terminated network connections to identify Command and Control (C2) communication.
-    * **Code Injection Detection:** Used plugins like `malfind` to locate injected code in memory segments with RWX permissions.
+    
   
 **Files:**
 
