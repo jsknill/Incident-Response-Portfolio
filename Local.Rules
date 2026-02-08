@@ -1,0 +1,4 @@
+# Snort IDS Custom Rule 
+# Purpose: Detect internal reconnaissance/TCP port scanning from a specific adversary IP. [cite: 89, 122]
+
+alert tcp 172.29.0.1 any -> 172.29.0.3 any (msg:"Malicious Port Scan Detected"; classtype:attempted-recon; sid:1000001; rev:2;)
