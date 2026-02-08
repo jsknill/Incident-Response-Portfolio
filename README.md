@@ -17,7 +17,7 @@ Welcome to my technical portfolio. This repository contains detailed incident re
 
 **Files:**
 * [Bash Script: scanner.sh] (https://github.com/jsknill/Incident-Response-Portfolio/blob/main/Scanner.sh)
-* [Full Technical Report (PDF)] (https://github.com/jsknill/Incident-Response-Portfolio/blob/main/report-One%20of%20Us.pdf)
+* [Full Technical Report (PDF)] 
 
 ---
 
